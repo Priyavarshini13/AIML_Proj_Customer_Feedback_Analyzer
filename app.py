@@ -15,6 +15,7 @@ def load_models():
 
 sentiment_analyzer, topic_classifier = load_models()
 
+
 def analyze_feedback(feedback_text, business_type):
     """
     Analyzes sentiment and identifies key topics based on the business type.
